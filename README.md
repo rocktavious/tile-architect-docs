@@ -12,9 +12,15 @@
   <a href="#current-features">Features</a>
 </p>
 
-<p align="center">
-    <img src="./Banner.png" alt="Banner" />
-</p>
+![screenshot](<img src="./Banner.png" alt="Banner" />)
+
+# Key Features
+* Generation of 53 unique (Square) tiles including 45 degree slopes, all inward corner variations, horizontal and vertical single tile platforms
+* Supports 4x4, 8x8, 16x16, 32x32, 64x64 and 128x128 tile sizes
+* Generation of rule tile asset that helps integrate tileset with Unity's 2D Tilemap system
+* `Pixel Editor` for interactively painting on source textures with realtime preview of changes made
+** `Pixel Editor` is also standalone for loading, editing and saving other 2D texture assets
+* Mask generation algorithms - Circle
 
 # Introduction
 `Tile Architect` was inspired by a number factors in my personal adventures doing game jams and creating the painstakingly tedious tileset art assets over and over.  I've watched many videos on YouTube about how to create certain tileset effects and this got me thinking there has to be a better way.  My day job is as a software engineer so I figured lets use these skills to make making art easier and faster - then the Unity 2D challenge happened and I thought what a better time then this to dive into this project and make something to help everyone else too.  With that I set out to make a tool to help others make their 2D tilemap dreams come true easier, faster and (hopefully) better (or at least more consistent).
@@ -43,14 +49,6 @@ This tileset is then also loaded into Unity's "rule tile" for use with Unity's 2
 <p align="center">
     <img src="./Tilemap.png" alt="UI" />
 </p>
-
-## Current Features
-* Generation of 53 unique (Square) tiles including 45 degree slopes, all inward corner variations, horizontal and vertical single tile platforms
-* Supports 4x4, 8x8, 16x16, 32x32, 64x64 and 128x128 tile sizes
-* Generation of rule tile asset that helps integrate tileset with Unity's 2D Tilemap system
-* `Pixel Editor` for interactively painting on source textures with realtime preview of changes made
-* `Pixel Editor` is also standalone for loading, editing and saving other 2D texture assets
-* Mask generation algorithms - Circle
 
 ## Roadmap / Feature Ideas
 * Generation of 2 tile wide slopes (~ 30 degree slopes)
