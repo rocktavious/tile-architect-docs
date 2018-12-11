@@ -1,5 +1,4 @@
-# Tile Architect
-<p align="left">
+<p align="center">
     <img src="./Logo.png" alt="Logo" />
 </p>
 Tile Architect is a Unity editor tool for generation of 2D tilemap tilesets. It comes with a suite of features and tools to vastly speed up the development and iteration cycle when creating 2D tilesets in Unity.
