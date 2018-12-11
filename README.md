@@ -6,18 +6,20 @@
 
 
 <p align="center">
-  <a href="#how-it-works">How It Works?</a> •
-  <a href="#what-it-looks-like">UI</a> •
-  <a href="#example-output">Output</a> •
-  <a href="#current-features">Features</a>
+    <a href="#how-it-works">How It Works?</a> •
+    <a href="#what-it-looks-like">UI</a> •
+    <a href="#example-output">Output</a> •
+    <a href="#current-features">Features</a>
 </p>
 
-![screenshot](<img src="./Banner.png" alt="Banner" />)
+<p align="center">
+    <img src="./Banner.png" alt="Banner" />
+</p>
 
 # Key Features
 * Generation of 53 unique (Square) tiles including 45 degree slopes, all inward corner variations, horizontal and vertical single tile platforms
 * Supports 4x4, 8x8, 16x16, 32x32, 64x64 and 128x128 tile sizes
-* Generation of rule tile asset that helps integrate tileset with Unity's 2D Tilemap system
+* Generation of [rule tile asset](https://github.com/Unity-Technologies/2d-extras) that helps integrate tileset with Unity's 2D Tilemap system
 * `Pixel Editor` for interactively painting on source textures with realtime preview of changes made
 ** `Pixel Editor` is also standalone for loading, editing and saving other 2D texture assets
 * Mask generation algorithms - Circle
